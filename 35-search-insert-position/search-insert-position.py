@@ -3,10 +3,9 @@ class Solution:
 
         low = 0
         high = len(nums)-1
-        flag = 0
 
-        while(high>=low):
-            mid = low + (high - low)//2
+        while high>=low :
+            mid = (high+low)//2
             if target == nums[mid]:
                 return mid
             elif target < nums[mid]:
