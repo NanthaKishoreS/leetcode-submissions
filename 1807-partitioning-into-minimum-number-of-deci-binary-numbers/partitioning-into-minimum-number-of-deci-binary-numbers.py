@@ -1,5 +1,4 @@
 class Solution:
     def minPartitions(self, n: str) -> int:
-        arr = list(n)
-        return int(max(arr))
+        return int(max(n))
         
